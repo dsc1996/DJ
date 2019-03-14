@@ -1,6 +1,6 @@
 <?php
 	// Your Email
-	$recipient = "yourname@yourdomain.com"; // PLEASE SET YOUR EMAIL ADDRESS
+	$recipient = "dustin@orangeelephantbrandmanagement.com"; // PLEASE SET YOUR EMAIL ADDRESS
 	$recaptcha_secret_key = 'yourAPIkey'; // PLEASE SET YOUR GOOGLE RECAPTCHA API KEY. If you are not using, please leave it blank.
 
 	if(!empty($recaptcha_secret_key) && array_key_exists('recaptcha',$_POST) ) {
